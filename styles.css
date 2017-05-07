@@ -1,0 +1,99 @@
+body,html{
+	height:100%;
+	margin:0; /* <body> has natural margins. Remove them by using margin:0 */
+	font-family:"Adobe Garamond Pro", serif;
+}
+h1{
+	margin:0;
+	font-weight:normal;}
+ul{
+	list-style-type:none;
+	float:left;
+	padding:0px 20px;
+	}
+li {
+	padding:0px 5px;}
+
+.parallax {
+	min-height:1000px;
+	background-image:url('img/whiteGown.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	position:relative;
+	}
+.parallax_shirt{
+	min-height:700px;
+	background-image:url('img/shirts.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	position:relative;
+	}
+.parallax_twoPeople{
+	min-height:1000px;
+	background-image:url('img/twoGirls.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-attachement:fixed;
+	position:relative;
+	}
+.parallax_tree{
+	min-height:800px;
+	background-image:url('img/cherryBlossom.jpg');
+	}
+.caption{
+	width:500px;
+	position:absolute;
+	top:33%;
+	background-color:rgba(178,178,178,0.7);
+	text-align:center;
+	left: 0;
+	right: 0;
+	margin: auto;
+	padding:8px;
+	}
+.caption2{
+	width:100%;
+	color:rgba(255,255,255,0.3);
+	background-color:initial;
+	top:0px;
+	text-align:initial; 
+	font-size:1.65em;
+	padding:0px;
+	}
+h1.padding{
+	padding:50px 25px 0px 25px;} 
+.info{
+	width:100%;
+	background-color:#081b24;
+	color:#ffffff;
+	text-align:center;
+	padding:50px 0px; 
+	font-size:1.15em;
+	}
+.info2{
+	padding: 40px 0px; 
+	}
+.info3 {
+	padding: 100px 0px;
+	font-size:2em;}
+.info_bottom{
+	width:680px;
+	background-color:rgba(178,178,178,0.8);
+	text-align:initial;
+	font-size:1em;
+	position:absolute;
+	left:27%;
+	top:70%;
+	padding:0px;
+	font-size:1.1em;
+	}
+ul.info_divider{
+	border-style:hidden hidden hidden solid;
+	}
+li:hover{
+	background-color:#595959;}
